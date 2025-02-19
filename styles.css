@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .game-container {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .card-hand {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .card {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #3498db;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
